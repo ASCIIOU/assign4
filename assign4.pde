@@ -77,10 +77,10 @@ void draw() {
           fill(255,0,0);
           rect(10,0,life,20);
           
-          image(hp,0,0);            //life          
+          image(hp,0,0);                     
           image(treasure,xx,yy);
           image(fighter,x,y);         
-          translate(t2,0);  //group moving
+          translate(t2,0);  
           t2+=5;
   
           for (int i=1;i<=5;i++){
@@ -147,7 +147,7 @@ void draw() {
           if (y>=height-50){
             y=height-50;
           }
-                                    // get treasure
+                                    
           if ((x>=xx-50)&(x<=xx+40)&(y>=yy-50)&(y<yy+40)){
             xx=floor(random(600));
             yy=floor(random(440));
