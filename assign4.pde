@@ -78,7 +78,7 @@ void setup () {
      if(mousePressed) { 
        gameState = GAME_RUN;}else { 
      if(mouseX >= width/3 && mouseX <= 2*width/3 && mouseY >=380 && mouseY <=415) { 
-           image(start1,0,0); 
+       image(start1,0,0); 
          } 
    } 
    break; 
