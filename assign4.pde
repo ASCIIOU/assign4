@@ -170,7 +170,7 @@ void setup () {
      } 
       
 
-       if(x <= xx + 40 && x >= xx - 30 && y <= yy + 40 && y >= yy - 30) { 
+       if(x <= xx + 40 && x >= xx - 40 && y <= yy + 40 && y >= yy - 40) { 
        image(treasure, xx, yy); 
        xx=floor(random(600)); 
        yy=floor(random(440)); 
